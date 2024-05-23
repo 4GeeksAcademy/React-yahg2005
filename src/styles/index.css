@@ -1,12 +1,21 @@
 
+/*  
 /* 
-
     You can write your own styles here...
     
     
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+     */
+    /* import 'relative/path/to/stylesheet.scss'; */ 
 
-*/
+.nav-link-inactive {
+    color: rgba(255, 255, 255, 0.5); 
+  }
+  .card-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  
+  

@@ -1,0 +1,29 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: center; /* Mantenemos centrado en dispositivos grandes */
+}
+
+.navbar-brand {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: start; /* Alineación a la izquierda en dispositivos pequeños */
+  width: 100%;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  text-align: center;
+}
+.navbar-toggler-icon {
+  font-size: 1.5rem; 
+  color: white; 
+}
